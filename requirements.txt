@@ -26,6 +26,7 @@ pytz==2017.3
 bson==0.5.2
 rake-nltk==1.0.4
 msgpack==0.5.6
+nltk_data
 
 
 
