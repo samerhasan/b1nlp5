@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 
 # add the main route
-@app.route('/B1NLP/v1.0/command/<string:input>', methods=['GET'])
+@app.route('/b1nlp5/v1.0/command/<string:input>', methods=['GET'])
 # given an input, infer the nlp results and return it as JSON object
 def getJSON(input):
     # get the infered data
