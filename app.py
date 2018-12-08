@@ -2,7 +2,7 @@
 
 # import required libraries
 from flask import Flask, jsonify
-from api.core import inference
+from core import inference
 
 # flask app
 app = Flask(__name__)
